@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="944ab1e3-97ca-4f7c-9791-ce8fbe66ea9f" name="Changes" comment="" />
+    <list default="true" id="944ab1e3-97ca-4f7c-9791-ce8fbe66ea9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MulticastChatServer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +34,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715582278449</updated>
+      <workItem from="1715582279689" duration="298000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
