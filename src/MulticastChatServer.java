@@ -4,7 +4,7 @@ public class MulticastChatServer {
 
     public static void main(String[] args) throws Exception {
 
-        int portNumber = 5000;
+        int portNumber = 55623; //samma tanke som första uppgiften men inte samma så att båda programmen kan köra samtidigt
         if (args.length >= 1) {
 
             portNumber = Integer.parseInt(args[0]);
@@ -12,9 +12,9 @@ public class MulticastChatServer {
         }
 
         MulticastSocket serverMulticastSocket = new MulticastSocket(portNumber);
-        System.out.println("MulticastSocket is created at  port" + portNumber);
+        System.out.println("MulticastSocket is created at port: " + portNumber);
 
-        InetAddress group = InetAddress.getByName("255.4.5.6");
+        InetAddress group = InetAddress.getByName("225.4.5.6");
 
         serverMulticastSocket.joinGroup(group);
         System.out.println("JoinGroup method is called...");

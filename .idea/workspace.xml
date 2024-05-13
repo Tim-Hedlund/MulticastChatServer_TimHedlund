@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="944ab1e3-97ca-4f7c-9791-ce8fbe66ea9f" name="Changes" comment="Började med grejen">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="944ab1e3-97ca-4f7c-9791-ce8fbe66ea9f" name="Changes" comment="Klar med grejen">
       <change beforePath="$PROJECT_DIR$/src/MulticastChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MulticastChatServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715582278449</updated>
-      <workItem from="1715582279689" duration="596000" />
+      <workItem from="1715582279689" duration="978000" />
     </task>
     <task id="LOCAL-00001" summary="Började med grejen">
       <created>1715582600888</created>
@@ -61,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715582600888</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Klar med grejen">
+      <created>1715582963956</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715582963956</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +75,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Började med grejen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Började med grejen" />
+    <MESSAGE value="Klar med grejen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klar med grejen" />
   </component>
 </project>
