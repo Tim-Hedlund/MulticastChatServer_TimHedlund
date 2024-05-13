@@ -1,5 +1,4 @@
-import java.net.InetAddress;
-import java.net.MulticastSocket;
+import java.net.*;
 
 public class MulticastChatServer {
 
@@ -18,7 +17,20 @@ public class MulticastChatServer {
         InetAddress group = InetAddress.getByName("255.4.5.6");
 
         serverMulticastSocket.joinGroup(group);
-        System.out.println("Joingropu method is called ");
+        System.out.println("JoinGroup method is called...");
+        boolean infinite = true;
+
+        while (infinite) {
+
+            byte[] buf = new byte[1024];
+            DatagramPacket data = new DatagramPacket(buf, buf.length);
+            serverMulticastSocket.receive(data);
+            String msg = new String(data.getData()).trim();
+            System.out.println("Message received from client = " + msg);
+
+        }
+
+        serverMulticastSocket.close();
 
     }
 
